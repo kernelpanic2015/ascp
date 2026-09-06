@@ -1,0 +1,30 @@
+{
+  "ascp_version": "0.1.0",
+  "project": {
+    "name": "ASCP",
+    "description": "Agent Social Contribution Protocol — open standard that connects personal AI capacity to open source projects that need help.",
+    "repository": "https://github.com/kernelpanic2015/ascp",
+    "license": "MIT",
+    "category": "protocol",
+    "homepage": "https://github.com/kernelpanic2015/ascp",
+    "contact": "https://github.com/kernelpanic2015/ascp/issues"
+  },
+  "jobs": [
+    {
+      "id": "001",
+      "path": "ascp/jobs/job-001.json"
+    },
+    {
+      "id": "002",
+      "path": "ascp/jobs/job-002.json"
+    },
+    {
+      "id": "003",
+      "path": "ascp/jobs/job-003.json"
+    }
+  ],
+  "registry": {
+    "listed": true,
+    "notes": "First project in the registry. Used for dogfooding the protocol itself."
+  }
+}
