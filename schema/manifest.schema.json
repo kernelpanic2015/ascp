@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kernelpanic2015/ascp/schema/manifest.schema.json",
+  "title": "ASCP Project Manifest",
+  "type": "object",
+  "required": ["ascp_version", "project", "jobs"],
+  "properties": {
+    "ascp_version": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "project": {
+      "type": "object",
+      "required": ["name", "description", "repository", "license", "category"],
+      "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "repository": { "type": "string", "format": "uri" },
+        "license": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": ["protocol", "library", "application", "documentation", "tooling", "other"]
+        },
+        "homepage": { "type": "string", "format": "uri" },
+        "contact": { "type": "string" }
+      }
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "path"],
+        "properties": {
+          "id": { "type": "string" },
+          "path": { "type": "string" }
+        }
+      }
+    },
+    "registry": {
+      "type": "object",
+      "properties": {
+        "listed": { "type": "boolean" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}
