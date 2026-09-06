@@ -1,0 +1,22 @@
+{
+  "id": "002",
+  "title": "Draft the maintainer pre-check prompt/skill",
+  "status": "open",
+  "priority": "P1",
+  "category": "documentation",
+  "difficulty": "intermediate",
+  "description": "Create an initial version of the prompt (or skill description) that a project maintainer can run to receive an estimated ASCP eligibility score and concrete recommendations before requesting inclusion in the registry. The output should include scores for standardization, job quality, license, activity, and a list of actionable recommendations.",
+  "acceptance_criteria": [
+    "A markdown file exists (suggested path: docs/pre-check-prompt.md) containing the full prompt text",
+    "The prompt asks for or assumes access to the project repository and its ascp/ files",
+    "The expected output format includes percentage or scores and clear recommendations",
+    "The document explains how a maintainer should use it"
+  ],
+  "suggested_files": [
+    "docs/pre-check-prompt.md"
+  ],
+  "labels": ["docs", "tooling", "validation"],
+  "estimated_effort": "medium",
+  "created_at": "2026-09-06",
+  "updated_at": "2026-09-06"
+}
