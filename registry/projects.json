@@ -1,0 +1,19 @@
+{
+  "ascp_registry_version": "0.1.0",
+  "updated_at": "2026-09-06",
+  "description": "Minimal static registry of projects that adopted ASCP and are requesting help. This will evolve.",
+  "projects": [
+    {
+      "id": "ascp",
+      "name": "ASCP",
+      "description": "Agent Social Contribution Protocol — the protocol itself (dogfooding).",
+      "repository": "https://github.com/kernelpanic2015/ascp",
+      "manifest": "https://raw.githubusercontent.com/kernelpanic2015/ascp/main/ascp/manifest.json",
+      "category": "protocol",
+      "license": "MIT",
+      "jobs_open": 3,
+      "status": "active",
+      "notes": "First project in the registry."
+    }
+  ]
+}
