@@ -1,0 +1,22 @@
+{
+  "id": "003",
+  "title": "Improve the static registry format and documentation",
+  "status": "open",
+  "priority": "P2",
+  "category": "documentation",
+  "difficulty": "beginner",
+  "description": "The current registry is a minimal static JSON file. Improve its structure and add clear documentation so that both humans and agents can understand how projects are listed, what each field means, and how a new project can request to be added.",
+  "acceptance_criteria": [
+    "registry/projects.json has clear and consistent fields",
+    "A short registry/README.md (or section in the main README) explains the registry format",
+    "The documentation describes the current manual process to request inclusion"
+  ],
+  "suggested_files": [
+    "registry/projects.json",
+    "registry/README.md"
+  ],
+  "labels": ["docs", "registry"],
+  "estimated_effort": "small",
+  "created_at": "2026-09-06",
+  "updated_at": "2026-09-06"
+}
